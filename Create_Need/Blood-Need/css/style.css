@@ -1,0 +1,476 @@
+input,select{
+    padding-top: 11px !important;
+    padding-bottom: 11px !important;
+}
+input,select,textarea{
+    box-shadow: 0 0 0 0 transparent !important;
+    border:0.5px solid #999999 !important;
+}
+.blood{
+    width:90%;
+    margin:auto;
+}
+
+.details{
+    width: 202px;
+}
+.details p{
+    color: #999999cb;
+    font-weight: 500;
+    font-size: 17px;
+}
+.details div{
+    color: #719FAF;
+}
+
+.content .header .header1{
+    position: relative;
+    width: 45%;
+    background-color: #FEC38F;
+}
+.content .header .header1 .num{
+    width:54px;
+    height:54px;
+    font-size: 21px;
+    background-color: #e5b081;
+    color:#E6E6E6;
+    border-radius: 50%;
+}
+.content .header .header1 .arrow{
+    width: 20px;
+    height: 20px;
+    border: 43px solid #FEC38F;
+    position: absolute;
+    right: -86px;
+    top: 0;
+    border-bottom-color:transparent ;
+    border-top-color:transparent ;
+    border-right-color:transparent ;
+}
+
+.content .header .header1 .text{
+    font-size: 34px;
+    color: #E6E6E6;
+}
+
+.content .header .header2{
+    width: 55%;
+    background-color: #F2f2f2;
+}
+.content .header .header2 .num{
+    width:54px;
+    height:54px;
+    font-size: 21px;
+    background-color: #E6E6E6;
+    color:#999999;
+    border-radius: 50%;
+}
+.content .header .header2 .text{
+    font-size: 34px;
+    color: #999999;
+}
+.content{
+    background-color: #f9f9f9;
+    border: 1.5px solid #c8c8c8;
+}
+.content .data h3{
+    padding-top: 20px;
+    font-size: 35px;
+    font-weight: 400;
+}
+
+
+.content .data form .basic-data .col-md-6 .description{
+    height:160px;
+}
+
+.content .data form .basic-data .col-md-6 .right .next a{
+    background-color: #FEC38F;
+    border-radius: 7px;
+    margin-top: 2px;
+    padding: 7px;
+    font-weight: 600;
+}
+.content .data form .basic-data .col-md-6 .right .next{
+    padding-top: 30px;
+}
+
+
+
+
+
+
+select{
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    background-color: #fff;
+    background-clip: padding-box;
+}
+
+
+
+.error{
+    color: rgba(230, 38, 38, 0.918);
+    font-size: 13px;
+}
+
+@media only screen and (max-width:991px){
+    .blood div .title{
+        font-size:43px !important;
+    }
+    .blood{
+        width:92%;
+    }
+    .content .header .header1 .arrow {
+        border-width: 35px;
+        right: -70px;
+    }
+}
+@media only screen and (max-width:924px){
+    .content .header .header1 {
+        width: 50%;
+    }
+    .content .header .header1 .num {
+        width: 42px;
+        height: 42px;
+        margin-right: 9px !important;
+    }
+    .content .header .header2 .num {
+        width: 42px;
+        height: 42px;
+        margin-right: 9px !important;
+    }
+    .content .header .header1 .text{
+        font-size: 32px;
+    }
+    .content .header .header2 .text{
+        font-size: 32px;
+    }
+    .content .header .header1 .arrow {
+        border-width: 32px;
+        right: -64px;
+    }
+}
+@media only screen and (max-width:880px){
+    .blood div .title{
+        font-size:39px !important;
+    }
+    .details p{
+        font-size: 15px;
+    }
+    .details{
+        width: 183px;
+    }
+}
+@media only screen and (max-width:800px){
+    .content .data h3{
+        font-size: 30px;
+    }
+    .content .header .header1 .text {
+        font-size: 28px;
+    }
+    .content .header .header1 .num {
+        width: 38px;
+        height: 38px;
+    }
+    .content .header .header2 .text {
+        font-size: 28px;
+    }
+    .content .header .header2 .num {
+        width: 38px;
+        height: 38px;
+    }
+    .content .header .header1 .arrow {
+        border-width: 29px;
+        right: -58px;
+    }
+}
+@media only screen and (max-width:767px){
+    .blood div .title{
+        font-size:34px !important;
+    }
+    .content .data form .basic-data .part2{
+        padding-top: 0 !important;
+    }
+    .content .data form .basic-data .col-md-6 .right .cities{
+        margin-bottom:40px !important;
+    }
+    .content .data form .basic-data .col-md-6 .right .next{
+        padding-top:0;
+    }
+}
+@media only screen and (max-width:760px){
+    .content .header .header1 .num {
+        width: 34px;
+        height: 34px;
+        margin-right: 9px !important;
+        font-size: 19px;
+    }
+    .content .header .header2 .num {
+        width: 34px;
+        height: 34px;
+        margin-right: 9px !important;
+        font-size: 19px;
+    }
+    .content .header .header1 .text{
+        font-size: 26px;
+    }
+    .content .header .header2 .text{
+        font-size: 26px;
+    }
+    .content .header .header1 .arrow {
+        border-width: 28px;
+        right: -56px;
+    }
+}
+@media only screen and (max-width:700px){
+    .content .header .header1 .num {
+        width: 28px;
+        height: 28px;
+        font-size: 17px;
+    }
+    .content .header .header2 .num {
+        width: 28px;
+        height: 28px;
+        font-size: 17px;
+    }
+    .content .header .header1 .text{
+        font-size: 22px;
+    }
+    .content .header .header2 .text{
+        font-size: 22px;
+    }
+    .content .header .header1 .arrow {
+        border-width: 25px;
+        right: -50px;
+    }
+    .blood div .title{
+        font-size:30px !important;
+    }
+    .blood{
+        width: 94%;
+    }
+}
+@media only screen and (max-width:622px){
+    .content .header .header1 .text {
+        font-size: 17px;
+    }
+    .content .header .header1 .num {
+        width: 28px;
+        height: 28px;
+        font-size: 16px;
+    }
+    .content .header .header2 .text {
+        font-size: 20px;
+    }
+    .content .header .header2 .num {
+        width: 28px;
+        height: 28px;
+        font-size: 16px;
+    }
+    .content .header .header1 .arrow {
+        border-width: 23px;
+        right: -46px;
+    }
+}
+@media only screen and (max-width:485px){
+    .content .header .header1 .text {
+        font-size: 16px;
+    }
+    .content .header .header2 .text {
+        font-size: 16px;
+    }
+    .content .header .header1 .num {
+        width: 24px;
+        height: 24px;
+        font-size: 13px;
+    }
+    .content .header .header2 .num {
+        width: 24px;
+        height: 24px;
+        font-size: 13px;
+    }
+    .content .header .header1 .arrow {
+        border-width: 20px;
+        right: -40px;
+    }
+}
+@media only screen and (max-width:600px){
+    .content .data h3{
+        font-size: 27px;
+    }
+    .blood div .title{
+        font-size:28px !important;
+    }
+    .details p{
+        font-size: 13px;
+    }
+    .details{
+        width: 164px;
+    }
+    .blood{
+        width: 96%;
+    }
+}
+@media only screen and (max-width:580px){
+    .blood div .title{
+        font-size:25px !important;
+    }
+    .details p{
+        font-size: 12px;
+    }
+    .details span{
+        font-size: 30px;
+    }
+    .details{
+        width: 153px;
+    }
+    .blood{
+        width: 98%;
+    }
+}
+@media only screen and (max-width:450px){
+    .content .data h3{
+        font-size: 25px;
+        margin-left: 7px;
+    }
+    .blood div .title{
+        font-size:22px !important;
+    }
+    .details p {
+        font-size: 11px;
+    }
+    .details span{
+        font-size: 25px;
+    }
+    .details{
+        width: 139px;
+    }
+    .blood{
+        width: 99%;
+    }
+    
+}
+@media only screen and (max-width:440px){
+    .content .header .header1{
+        padding-left: 7px !important;
+    }
+    .content .header .header2{
+        padding-left: 42px !important;
+        justify-content: unset !important;
+    }
+}
+@media only screen and (max-width:400px){
+    .content .data{
+        padding-left: 3px !important;
+        padding-right: 5px !important;
+    }
+    .blood div .title{
+        font-size:20px !important;
+    }
+    .details p{
+        font-size: 10px;
+    }
+    .details span{
+        font-size: 26px;
+    }
+    .details{
+        width: 131px;
+    }
+    .blood{
+        width: 100%;
+    }
+}
+@media only screen and (max-width:387px){
+    .content .header .header1 .num {
+        width: 20px;
+        height: 20px;
+        font-size: 13px;
+    }
+    .content .header .header2 .num {
+        width: 20px;
+        height: 20px;
+        font-size: 13px;
+    }
+    .content .header .header1 .text {
+        font-size: 14.6px;
+    }
+    .content .header .header2 .text {
+        font-size: 14.6px;
+    }
+    .content .header .header1 .arrow {
+        border-width: 19.9px;
+        right: -38px;
+    }
+}
+@media only screen and (max-width:368px){
+    .content .data h3{
+        font-size: 20px;
+    }
+    .content .header .header1{
+        width: 60% !important;
+    }
+    .blood div .title {
+        font-size: 16px !important;
+    }
+    .details p {
+        font-size: 9px;
+    }
+    .details span {
+        font-size: 21px;
+    }
+    .details {
+        width: 117px;
+    }
+}
+@media only screen and (max-width:342px){
+    .content .header .header1 .num {
+        width: 18px;
+        height: 18px;
+        font-size: 10px;
+    }
+    .content .header .header1 .text{
+        font-size: 14px;
+    }
+    .content .header .header2 .num {
+        width: 18px;
+        height: 18px;
+        font-size: 10px;
+    }
+    .content .header .header2 .text{
+        font-size: 14px;
+    }
+    .content .header .header1 .arrow {
+        border-width: 19px;
+        right: -38px;
+    }
+}
+@media only screen and (max-width:322px){
+    .content .header .header1 .num {
+        width: 15px;
+        height: 15px;
+        font-size: 10px;
+    }
+    .content .header .header2 .num {
+        width: 15px;
+        height: 15px;
+        font-size: 10px;
+    }
+    .content .header .header1 .text {
+        font-size: 11px;
+        font-weight: 500;
+    }
+    .content .header .header2 .text {
+        font-size: 11px;
+        font-weight: 500;
+    }
+    .content .header .header1 .arrow {
+        border-width: 17px;
+        right: -34px;
+    }
+    .content .header .header2 {
+        padding-left: 27px !important;
+    }
+}

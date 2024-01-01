@@ -1,0 +1,151 @@
+.needs2 .filter p{
+    color: #3e4a41;
+    font-weight: bold;
+    font-size: 30px;
+}
+.needs2 .acount .need .data{
+    border:2px solid #afb3b0;
+    border-radius: 7px;
+    width: 92%;
+}
+.needs2 .acount .need .data h2{
+    font-size: 30px;
+    font-weight:700;
+    color: #3e4a41;
+}
+.needs2 .acount .need .data p{
+    font-weight:500;
+    color: #3e4a41;
+    font-size: 14px;
+}
+.needs2 .acount .need .count span{
+    font-size:25px;
+    font-weight:600;
+    color: #3e4a41;
+}
+
+.needs2 .acount .details{
+    border:2px solid #afb3b0;
+    border-radius: 7px;
+}
+.needs2 .acount .details h2{
+    font-size: 30px;
+    font-weight:700;
+    color: #3e4a41;
+}
+.needs2 .acount .details p{
+    font-weight:500;
+    color: #3e4a41;
+    font-size: 14px;
+}
+
+
+.needs2 .acount .desc{
+    border:2px solid #afb3b0;
+    border-radius: 7px;
+}
+.needs2 .acount .desc h2{
+    font-size: 30px;
+    font-weight:700;
+    color: #3e4a41;
+}
+.needs2 .acount .desc p{
+    font-weight:500;
+    color: #3e4a41;
+    font-size: 14px;
+}
+
+.needs2 .acount div .icons{
+    display: inline-block;
+    border:2px solid #afb3b0;
+    border-radius: 40px;
+    margin-left: auto;
+}
+.needs2 .acount div .icons a{
+    font-size: 45px;
+}
+.needs2 .acount div .icons a .what{
+    color: #27d367;
+}
+
+.needs2 .filter .title-back .back{
+    color: #3e4a41;
+    font-size: 24px;
+    cursor: pointer;
+    margin-right: 15px;
+}
+.needs2 .see span{
+    align-items:center;
+    justify-content:center;
+    color: #dee3e7;
+    font-size: 25px;
+    cursor: pointer;
+}
+.needs2 .acount .donation .count .up{
+    cursor: pointer;
+}
+.needs2 .acount .donation .count .down{
+    cursor: pointer;
+}
+
+.needs2 .acount img{
+    height: 700px;
+}
+@media only screen and (max-width:991px){
+    .needs2 .acount img{
+        height: auto;
+    }
+}
+@media only screen and (max-width:767px){
+    .needs2 .filter{
+        margin-bottom: 50px !important;
+    }
+    .needs2 .filter p{
+        padding-bottom: 0px !important;
+    }
+    .needs2 .acount .food-donation{
+        margin:30px 0px !important;
+        padding-right: 0px !important;
+    }
+    .needs2 .acount .food-donation .data{
+        width: 85%;
+    }
+    .needs2 .acount .desc{
+        margin-top:30px!important;
+        padding-right: 0px !important;
+    }
+}
+
+@media only screen and (max-width:380px){
+    .needs2 .acount .food-donation .data h2 {
+        font-size: 25px;
+    }
+    .needs2 .acount .food-donation .data p {
+        font-size: 12px;
+    }
+    .needs2 .acount .details h2 {
+        font-size: 25px;
+    }
+    .needs2 .acount .details p {
+        font-size: 12px;
+    }
+    .needs2 .acount .desc h2 {
+        font-size: 25px;
+    }
+    .needs2 .acount .desc p {
+        font-size: 12px;
+    }
+
+    .needs2 .acount div .icons a span{
+        margin-left: 15px !important;
+        margin-right: 35px !important;
+    }
+    .needs2 .acount div .icons a .what {
+        margin-left: 35px !important;
+        margin-right: 15px !important;
+    }
+    .needs2 .acount div .icons a{
+        font-size: 33px;
+    }
+
+}

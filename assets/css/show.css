@@ -1,0 +1,70 @@
+.show .donations-needs .donations{
+    margin-right: 30px;
+}
+.show .donations-needs{
+    position: relative;
+}
+
+.show .links{
+    position: absolute;
+    background-color: #212529;
+    transition: 1s all;
+    z-index: 1000;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    opacity: 0.9;
+    width: 600px;
+}
+.show .links{
+    right: 0px;
+}
+.show .donations-needs div p{
+    font-size: 28px;
+    margin-right: 10px;
+    font-weight: 500;
+    text-transform: capitalize;
+}
+.show .donations-needs div img{
+    cursor: pointer;
+    width: 20px;
+}
+.show .links p{
+    font-size: 30px;
+    color: #dbd6d6;
+    font-weight: 600;
+    padding-left: 10px;
+}
+.show .links ul li a{
+    font-size: 23px;
+    color: rgba(223, 215, 215, 0.796);
+    font-weight: 400;
+    text-transform: capitalize;
+
+}
+.show .links ul li a:hover{
+    color: #719FAF;
+    transition: 0.5s all;
+}
+@media only screen and (max-width:991px){
+    .show .links{
+        width: 400px !important;
+    }
+}
+@media only screen and (max-width:767px){
+    .show .links{
+        width: 200px !important;
+    }
+    .show .links ul{
+        display: block !important;
+    }
+    .show .links ul li{
+        margin-left: 25px;
+
+    }
+    .show .links p{
+        margin-bottom: 0px;
+    }
+    .show .links{
+        right: 100px;
+    }
+}

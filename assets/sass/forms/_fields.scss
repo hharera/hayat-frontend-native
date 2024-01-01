@@ -1,0 +1,11 @@
+input,
+textarea,
+.form-control,
+.form-box input,
+.form-box textarea {
+
+  &::placeholder {
+    color: $body-color;
+  }
+
+}

@@ -1,0 +1,25 @@
+/* ----------------------------------------------------------------
+			[ All Css Plugins & Helper Classes File ]
+-----------------------------------------------------------------*/
+
+/* == bootstrap == */
+/* @import url("plugins/bootstrap-grid.min.css"); */
+
+
+/* == Swiper == */
+@import url("plugins/swiper.min.css");
+@import url("plugins/aos.css");
+
+@import url("plugins/all.min.css");
+
+/* == justifiedGallery == */
+@import url("plugins/justifiedGallery.min.css");
+
+/* == magnific popup == */
+@import url("plugins/magnific-popup.min.css");
+
+/* == magnific popup == */
+@import url("plugins/youtubepopup.min.css");
+
+/* == Helper Class == */
+@import url("global.css");

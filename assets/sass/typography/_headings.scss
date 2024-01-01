@@ -1,0 +1,156 @@
+h1, h2, h3, h4, h5, h6,
+.h1, .h2, .h3, .h4, .h5, .h6 {
+  color: $heading-color;
+  font-weight: $font-weight-heading;
+  line-height: $line-height-base;
+  font-family: $heading-font;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* ----------------------------------------------------------------
+	Basic Layout Styles
+-----------------------------------------------------------------*/
+
+h1, .h1 {
+  font-size: $font-size-h1;
+}
+
+h2, .h2 {
+  font-size: $font-size-h2;
+}
+
+h3, .h3 {
+  font-size: $font-size-h3;
+}
+
+h4, .h4 {
+  font-size: $font-size-h4;
+}
+
+h5, .h5 {
+  font-size: $font-size-h5;
+}
+
+h6, .h6 {
+  font-size: $font-size-h6;
+}
+
+
+.dsn-heading-title:not(.ah-headline) {
+  vertical-align: middle;
+
+  > * {
+    vertical-align: middle;
+  }
+
+  span, p {
+    &:not(.animate-number) {
+      line-height: $line-height-base;
+    }
+
+  }
+}
+
+.title {
+  font-size: var(--title-heading);
+  line-height: calc(var(--title-heading) + 10px);
+}
+
+.sm-title-block {
+  font-size: 16px;
+}
+
+.section-title {
+  
+  .sub-title {
+    background-color: #C7BBB0;
+    color: #fff;
+    font-size: 17px;
+    font-weight: 500;
+    display: inline-block;
+    padding: 10px 20px;
+    border-right: 4px solid #5C4C32;
+    margin-bottom: 10px;
+  }
+
+  .title-h2 {
+    display: inline-block;
+
+    &.has-border {
+      padding-bottom: 30px;
+      border-bottom: 6px solid #C7BBB0;
+    }
+
+    span {
+      font-weight: bold;
+    }
+  }
+
+  &.mb-70 {
+    @include media_991 {
+      margin-bottom: 50px;
+    }
+  }
+
+  &.mb-50 {
+    @include media_991 {
+      margin-bottom: 30px;
+    }
+  }
+}
+
+.title-h2 {
+  font-size: 42px;
+
+  @include media_768X991 {
+    font-size: 32px;
+    line-height: inherit;
+  }
+
+  @include media_768() {
+    font-size: 30px;
+    line-height: inherit;
+  }
+
+}
+
+/**
+  Title Section
+ */
+
+
+.title-block {
+  font-size: 22px;
+  font-weight: 600;
+}
+
+.sm-p {
+  font-size: 14px;
+}
+
+
+.header-scale-hero {
+  transform: scale(1.15);
+}
+
+
+.subtitle {
+  color: $body-color;
+  font-size: 16px;
+}
+
+
+
+.sm-title-block, .title-block {
+  @include media_575() {
+    br {
+      display: none;
+    }
+  }
+
+}
+
+
+
+

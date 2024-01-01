@@ -1,0 +1,511 @@
+input,select{
+    padding-top: 11px !important;
+    padding-bottom: 11px !important;
+}
+input,select,textarea{
+    box-shadow: 0 0 0 0 transparent !important;
+    border:0.5px solid #999999 !important;
+}
+.medicine{
+    width:90%;
+    margin:auto;
+}
+.details{
+    width: 202px;
+}
+.details p{
+    color: #999999cb;
+    font-weight: 500;
+    font-size: 17px;
+}
+.details div{
+    color: #719FAF;
+}
+
+.content .header .header1{
+    position: relative;
+    width: 45%;
+    background-color: #FEC38F;
+}
+.content .header .header1 .num{
+    width:44px;
+    height:44px;
+    font-size: 21px;
+    background-color: #e5b081;
+    color:#E6E6E6;
+    border-radius: 50%;
+}
+.content .header .header1 .arrow{
+    width: 20px;
+    height: 20px;
+    border: 38px solid #FEC38F;
+    position: absolute;
+    right: -76px;
+    top: 0;
+    border-bottom-color:transparent ;
+    border-top-color:transparent ;
+    border-right-color:transparent ;
+}
+
+.content .header .header1 .text{
+    font-size: 30px;
+    color: #E6E6E6;
+}
+
+.content .header .header2{
+    width: 55%;
+    background-color: #F2f2f2;
+}
+.content .header .header2 .num{
+    width:44px;
+    height:44px;
+    font-size: 21px;
+    background-color: #E6E6E6;
+    color:#999999;
+    border-radius: 50%;
+}
+.content .header .header2 .text{
+    font-size: 30px;
+    color: #999999;
+}
+.content{
+    background-color: #f9f9f9;
+    border: 1.5px solid #c8c8c8;
+}
+.content .data h3{
+    padding-top: 20px;
+    font-size: 35px;
+    font-weight: 400;
+    padding-left:8px;
+}
+
+.content .data form .basic-data .col-md-6 .image-title .image .img{
+    width:110px;
+    height:100px;
+    background-color:#FEC38F;
+    border-radius:7px;
+    cursor: pointer;
+}
+.content .data form .basic-data .col-md-6 .image-title .image .img .imgs .img1{
+    border: solid #999999 45px;
+    border-top-color: transparent;
+    border-left-color: transparent;
+    border-right-color: transparent;
+    top: -8%;
+    left: 7%;
+}
+.content .data form .basic-data .col-md-6 .image-title .image .img .imgs .img2{
+    border: solid #E6E6E6 34px;
+    border-top-color: transparent;
+    border-left-color: transparent;
+    border-right-color: transparent;
+    top: 15%;
+    left: 70%;
+    transform: translate(-50%);
+}
+.content .data form .basic-data .col-md-6 .image-title .image .img .imgs .img3{
+    width: 11px;
+    height: 11px;
+    border-radius: 50%;
+    background-color: #999999;
+    top: 8px;
+    right: 8px;
+}
+.content .data form .basic-data .col-md-6 .image-title .image .img span{
+    width:33px;
+    height:33px;
+    border-radius: 50%;
+    background-color:#999999;
+    bottom: -8px;
+    right: -6px;
+    color: white;
+    font-weight: bolder;
+    font-size: 30px;
+}
+.content .data form .basic-data .col-md-6 .image-title .image .img input[type='file']{
+    position: absolute;
+    z-index: 90;
+    cursor: pointer;
+}
+.content .data form .basic-data .col-md-6 .image-title .title2{
+    width: 83%;
+}
+.content .data form .basic-data .col-md-6 .description{
+    height:160px;
+
+}
+.content .data form .basic-data .col-md-6 .right .amount-unit .amounts{
+    width: 65% !important;
+    margin-right: 6px !important;
+}
+.content .data form .basic-data .col-md-6 .right .amount-unit .units{
+    width: 35% !important;
+    margin-left: 6px !important;
+}
+.content .data form .basic-data .col-md-6 .right .expiration label{
+    margin-top: 10px;
+}
+.content .data form .basic-data .col-md-6 .right .expiration div .day{
+    margin-right: 6px !important;
+}
+.content .data form .basic-data .col-md-6 .right .expiration div .month{
+    margin-left: 6px !important;
+    margin-right: 6px !important;
+}
+.content .data form .basic-data .col-md-6 .right .expiration div .year{
+    margin-left: 6px !important;
+}
+.content .data form .basic-data .col-md-6 .right .next a{
+    background-color: #FEC38F;
+    border-radius: 7px;
+    margin-top: 2px;
+    padding: 7px;
+    font-weight: 600;
+}
+.content .data form .basic-data .col-md-6 .right .next{
+    padding-top: 30px;
+}
+.content .data form .basic-data .col-lg-6 .image-title .image .errorimg{
+    margin-top: 10px;
+    width:76px;
+    margin-top: 15px;
+}
+.error{
+    color: rgba(230, 38, 38, 0.918);
+    font-size: 13px;
+}
+
+@media only screen and (max-width:991px){
+    .medicine div .title{
+        font-size:43px !important;
+    }
+    .medicine{
+        width:92%;
+    }
+    .content .header .header1 .arrow {
+        border-width: 26.9px;
+        right: -52px;
+    }
+    .content .header .header1 .num {
+        width: 34px;
+        height: 34px;
+        margin-right: 9px !important;
+    }
+    .content .header .header2 .num {
+        width: 34px;
+        height: 34px;
+        margin-right: 9px !important;
+    }
+    .content .header .header1 .text{
+        font-size: 25px;
+    }
+    .content .header .header2 .text{
+        font-size: 25px;
+    }
+}
+@media only screen and (max-width:924px){
+    .content .header .header1 {
+        width: 50%;
+    }
+    .content .header .header1 .num {
+        margin-right: 9px !important;
+    }
+    .content .header .header2 .num {
+        margin-right: 9px !important;
+    }
+}
+@media only screen and (max-width:880px){
+    .medicine div .title{
+        font-size:39px !important;
+    }
+    .details p{
+        font-size: 15px;
+    }
+    .details{
+        width: 183px;
+    }
+}
+@media only screen and (max-width:800px){
+    .content .data h3{
+        font-size: 30px;
+    }
+}
+@media only screen and (max-width:767px){
+    .medicine div .title{
+        font-size:34px !important;
+    }
+    .content .data form .basic-data .part2{
+        padding-top: 0 !important;
+    }
+    .content .data form .basic-data .col-md-6 .right .expiration{
+        margin-top:18px !important;
+    }
+    .content .data form .basic-data .col-md-6 .right button{
+        margin-top: 20px !important;
+    }
+}
+@media only screen and (max-width:767px){
+    .content .header .header1 .num {
+        width: 26px;
+        height: 26px;
+        font-size: 15px;
+    }
+    .content .header .header2 .num {
+        width: 26px;
+        height: 26px;
+        font-size: 15px;
+    }
+    .content .header .header1 .text{
+        font-size: 20px;
+    }
+    .content .header .header2 .text{
+        font-size: 20px;
+    }
+    .content .header .header1 .arrow {
+        border-width: 23px;
+        right: -46px;
+    }
+}
+@media only screen and (max-width:700px){
+    .medicine div .title{
+        font-size:30px !important;
+    }
+    .medicine{
+        width: 94%;
+    }
+}
+@media only screen and (max-width:610px){
+    .content .header .header1 .text {
+        font-size: 17px;
+    }
+    .content .header .header1 .num {
+        width: 24px;
+        height: 24px;
+        font-size: 14px;
+    }
+    .content .header .header2 .text {
+        font-size: 17px;
+    }
+    .content .header .header2 .num {
+        width: 24px;
+        height: 24px;
+        font-size: 14px;
+    }
+    .content .header .header1 .arrow {
+        border-width: 21px;
+        right: -42px;
+    }
+}
+@media only screen and (max-width:600px){
+    .content .data h3{
+        font-size: 24px;
+    }
+    .medicine div .title{
+        font-size:28px !important;
+    }
+    .details p{
+        font-size: 13px;
+    }
+    .details{
+        width: 164px;
+    }
+    .medicine{
+        width: 96%;
+    }
+}
+@media only screen and (max-width:580px){
+    .content .header .header1{
+        padding-left: 7px !important;
+    }
+    .content .header .header2{
+        padding-left: 50px !important;
+        justify-content: unset !important;
+    }
+    .medicine div .title{
+        font-size:25px !important;
+    }
+    .details p{
+        font-size: 12px;
+    }
+    .details span{
+        font-size: 30px;
+    }
+    .details{
+        width: 153px;
+    }
+    .medicine{
+        width: 98%;
+    }
+}
+@media only screen and (max-width:485px){
+    
+    .content .header .header1 .text {
+        font-size: 16px;
+    }
+    .content .header .header2 .text {
+        font-size: 16px;
+    }
+    .content .header .header1 .num {
+        width: 20px;
+        height: 20px;
+        font-size: 11px;
+    }
+    .content .header .header2 .num {
+        width: 20px;
+        height: 20px;
+        font-size: 11px;
+    }
+    .content .header .header1 .arrow {
+        border-width: 20px;
+        right: -40px;
+    }
+}
+@media only screen and (max-width:450px){
+    .content .header .header1 .text {
+        font-size: 12px;
+    }
+    .content .header .header2 .text {
+        font-size: 12px;
+    }
+    .content .header .header1 .num {
+        width: 17px;
+        height: 17px;
+        font-size: 9px;
+    }
+    .content .header .header2 .num {
+        width: 17px;
+        height: 17px;
+        font-size: 9px;
+    }
+    .content .header .header1 .arrow {
+        border-width: 17px;
+        right: -34px;
+    }
+    .content .data h3{
+        font-size: 22px;
+    }
+    .medicine div .title{
+        font-size:20px !important;
+    }
+    .details p {
+        font-size: 9px;
+    }
+    .details span{
+        font-size: 19px;
+    }
+    .details{
+        width: 115px;
+    }
+    .medicine{
+        width: 99%;
+    }
+    .content .data form .basic-data .col-md-6 .image-title .title2 div{
+        margin-left: 8px !important;
+    }
+    .content .data form .basic-data .col-md-6 .right .amount-unit .amounts{
+        width: 60% !important;
+        margin-right: 3px !important;
+    }
+    .content .data form .basic-data .col-md-6 .right .amount-unit .units{
+        width: 40% !important;
+        margin-left: 3px !important;
+    }
+    .content .data form .basic-data .col-md-6 .right .expiration div .day{
+        margin-right: 3px !important;
+    }
+    .content .data form .basic-data .col-md-6 .right .expiration div .month{
+        margin-left: 3px !important;
+        margin-right: 3px !important;
+    }
+    .content .data form .basic-data .col-md-6 .right .expiration div .year{
+        margin-left: 3px !important;
+    }
+}
+@media only screen and (max-width:400px){
+    .content .data{
+        padding-left: 3px !important;
+        padding-right: 5px !important;
+    }
+    .medicine div .title{
+        font-size:16px !important;
+    }
+    .details p{
+        font-size: 8px;
+    }
+    .details span{
+        font-size: 17px;
+        margin-right: 0px!important;
+    }
+    .details{
+        width: 100px;
+    }
+    .medicine{
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width:368px){
+    .content .data h3{
+        font-size: 20px;
+    }
+    .content .header .header1{
+        width: 60% !important;
+    }
+    .medicine div .title {
+        font-size: 14px !important;
+    }
+}
+@media only screen and (max-width:332px){
+    .content .header .header1 .num {
+        width: 15px;
+        height: 15px;
+        font-size: 10px;
+    }
+    .content .header .header2 .num {
+        width: 15px;
+        height: 15px;
+        font-size: 10px;
+    }
+    .content .header .header1 .text {
+        font-size: 11px;
+        font-weight: 500;
+    }
+    .content .header .header2 .text {
+        font-size: 11px;
+        font-weight: 500;
+    }
+    .content .header .header1 .arrow {
+        border-width: 16.8px;
+        right: -32px;
+    }
+    .content .header .header2 {
+        padding-left: 27px !important;
+    }
+}
+@media only screen and (max-width:312px){
+    .content .header .header1 .num {
+        width: 12px;
+        height: 12px;
+        font-size: 8px;
+    }
+    .content .header .header2 .num {
+        width: 12px;
+        height: 12px;
+        font-size: 8px;
+    }
+    .content .header .header1 .text {
+        font-size: 9px;
+        font-weight: 500;
+    }
+    .content .header .header2 .text {
+        font-size: 9px;
+        font-weight: 500;
+    }
+    .content .header .header1 .arrow {
+        border-width: 15.8px;
+        right: -30px;
+    }
+    .content .header .header2 {
+        padding-left: 27px !important;
+    }
+}

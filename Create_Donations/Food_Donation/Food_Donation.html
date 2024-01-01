@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Food Donation</title>
+    <link rel="stylesheet" href="css/all.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/contact.css">
+</head>
+<body>
+
+    <div class="container-fluid food">
+        <div class="d-flex justify-content-between align-items-center">
+            <h2 class="title py-2 fa-3x text-capitalize">food donation</h2>
+            <div class="details d-flex justify-content-between align-items-center">
+                <span class="fa-2x d-inline-block me-1"><i class="fa-solid fa-lock" style="color: #719FAF;"></i></span>
+                <p class="text-capitalize mb-0 d-inline-block ms-2">your personal details are safe with us.</p>
+            </div>
+        </div>
+        <div class='content'>
+            <div class="header d-flex">
+                <div class="header1 d-flex align-items-center ps-4 py-2">
+                    <div class="arrow"></div>
+                    <span class="num me-3 d-flex justify-content-center align-items-center">1</span>
+                    <span class="text text-capitalize ">food information</span>
+                </div>
+                <div class="header2 d-flex ps-4 py-2 py-lg-3 justify-content-center align-items-center">
+                    <span class="num me-3 d-flex justify-content-center align-items-center">2</span>
+                    <span class="text text-capitalize ">contact</span>
+                </div>
+            </div>
+            <div class="data ps-4 pe-3 pb-5">
+                <h3 class="mb-4 text-capitalize">Basic information</h3>
+                <form action="">
+                    <div class="basic-data row ">
+                        <div class="col-md-6 part1">
+                            <div class="ps-2">
+                                <div class="image-title d-flex align-items-center">
+                                    <div class="image">
+                                        <div class="img position-relative" style='margin-bottom:10px'>
+                                            <input type="file" accept="image/*" class='opacity-0 w-100 h-100 bg-dark bg-danger' name="image">
+                                            <div class="imgs">
+                                                <div class="img1 position-absolute"></div>
+                                                <div class="img2 position-absolute"></div>
+                                                <div class="img3 position-absolute"></div>
+                                                <span class='position-absolute d-flex justify-content-center align-items-center'>
+                                                    <i class="fa-solid fa-plus"></i>
+                                                </span>
+                                            </div>
+                                        </div>
+                                        <div class="errorimg"></div>
+                                    </div>
+                                    <div class="title2">
+                                        <div class="ms-4" style="margin-top: 28px;">
+                                            <input type="text" class="text form-control" placeholder="Title " maxlength="100" minlength="4">
+                                            <div class="d-flex justify-content-end">
+                                                <p class="errortitle"></p>
+                                                <p style="font-size:14px;" class="ms-auto"><span class="count">4</span>/100</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="description mt-4">
+                                    <textarea minlength="4" maxlength="800" name="description" class="text form-control h-100" id="" cols="30" rows="10" placeholder="Description"></textarea>
+                                    <div class="d-flex justify-content-end">
+                                        <p class="errordescription"></p>
+                                        <p style="font-size:14px;" class="ms-auto"><span class="count">4</span>/800</p>
+                                    </div>
+                                </div>
+                                <select placeholder='Food Category' name="foodCategory" id="" class="foodCategory form-control w-100 mt-4">
+                                    <option value='' class="value1">Food Category</option>
+                                </select>
+                                <p class="errorcategory"></p>
+                            </div>
+                        </div>
+                        <div class="col-md-6 pt-4 part2">
+                            <div class="right pt-1 ps-2">
+                                <div class="amount-unit d-flex">
+                                    <div class="amounts">
+                                        <input type="text" name="quantity" placeholder='Amount' class="form-control amount" id="">
+                                        <p class="erroramount"></p>
+                                    </div>
+                                    <div class="units w-25 ms-3">
+                                        <select name="food_unit" id="day" class="unit form-control">
+                                            <option value="" class="value1">Food Unit</option>
+                                        </select>
+                                        <p class="errorunit"></p>
+                                    </div>
+                                </div>
+                                <div class='expiration my-4'>
+                                    <label class="text-capitalize form-label mb-3">expiration date</label>
+                                    <div class="d-flex">
+                                        <select name="day" id="day" class="day form-select">
+                                            <option  class="value1">Day</option>
+                                            <option >01</option>
+                                            <option >02</option>
+                                            <option >03</option>
+                                            <option >04</option>
+                                            <option >05</option>
+                                            <option >06</option>
+                                            <option >07</option>
+                                            <option >08</option>
+                                            <option >09</option>
+                                            <option >10</option>
+                                            <option >11</option>
+                                            <option >12</option>
+                                            <option >13</option>
+                                            <option >14</option>
+                                            <option >15</option>
+                                            <option >16</option>
+                                            <option >17</option>
+                                            <option >18</option>
+                                            <option >19</option>
+                                            <option >20</option>
+                                            <option >21</option>
+                                            <option >22</option>
+                                            <option >23</option>
+                                            <option >24</option>
+                                            <option >25</option>
+                                            <option >26</option>
+                                            <option >27</option>
+                                            <option >28</option>
+                                            <option >29</option>
+                                            <option >30</option>
+                                            <option >31</option>
+                                        </select>
+                                        <select name="month" id="month" class="month form-select ms-4">
+                                            <option class="value1">Month</option>
+                                            <option>01</option>
+                                            <option>02</option>
+                                            <option>03</option>
+                                            <option>04</option>
+                                            <option>05</option>
+                                            <option>06</option>
+                                            <option>07</option>
+                                            <option>08</option>
+                                            <option>09</option>
+                                            <option>10</option>
+                                            <option>11</option>
+                                            <option>12</option>
+                                            
+                                        </select>
+                                        <select name="year" id="year" class="year form-select ms-4">
+                                            <option class="value1">Year</option>
+                                            <option>2023</option>
+                                            <option>2024</option>
+                                            <option>2025</option>
+                                            <option>2026</option>
+                                            <option>2027</option>
+                                            <option>2028</option>
+                                            <option>2029</option>
+                                            <option>2030</option>
+                                            <option>2031</option>
+                                            <option>2032</option>
+                                            <option>2033</option>
+                                            <option>2034</option>
+                                            <option>2035</option>
+                                            <option>2036</option>
+                                        </select>
+                                    </div>
+                                    <p class="errordate"></p>
+                                </div>
+                                <div class='cities'>
+                                    <select name="city" id="city" class="city form-control">
+                                        <option value="" class="value1">City</option>
+                                    </select>
+                                    <p class='errorcity'></p>
+                                </div>
+                                <div class="next">
+                                    <a class="btn w-100 text-decoration-none d-block text-center fs-4 text-white">Next</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="communication-method mt-5 d-none">
+                        <div  class="choice w-50">
+                            <div>
+                                <div>
+                                    <input type="radio" name="communication_method" id="chat" value="CHAT">
+                                    <label for="chat">Chat</label>
+                                </div>
+                                <div>
+                                    <input type="radio" name="communication_method" id="phone"  value="PHONE">
+                                    <label for="phone">Phone</label>
+                                </div>
+                                <div>
+                                    <input type="radio" name="communication_method" id="PhoneChat"  value="CHAT_AND_PHONE">
+                                    <label for="PhoneChat">Phone Chat</label>
+                                </div>
+                            </div>
+                            <p class="errorcontact"></p>
+                            <div>
+                                <div class="whats position-relative py-4">
+                                    <input type="text" class="form-control bg-transparent whatsapp position-absolute top-0 bottom-0 start-0 end-0">
+                                    <div class="d-flex align-items-center position-absolute top-0 bottom-0 start-0 end-0 ps-4">
+                                        <span class="icon d-inline-block me-3"><i class="fa-brands fa-whatsapp"></i></span>
+                                        <span class="d-inline-block ms-3">WhatsApp</span>
+                                    </div>
+                                </div>
+                                <p class="whatserror"></p>
+                                <div class="tel position-relative py-4">
+                                    <input type="text" class="form-control bg-transparent teli position-absolute top-0 bottom-0 start-0 end-0">
+                                    <div class="d-flex align-items-center position-absolute top-0 bottom-0 start-0 end-0 ps-4">
+                                        <span class="icon d-inline-block me-3"><i class="fa-brands fa-telegram"></i></span>
+                                        <span class="d-inline-block ms-3">Telegram</span>
+                                    </div>
+                                </div>
+                                <p class="telerror"></p>
+                            </div>
+                        </div>
+                        <div class="buttons d-flex justify-content-between align-items-center">
+                            <a href="" class="btn text-decoration-none text-capitalize d-inline-block">back</a>
+                            <button type="submit" class="btn text-capitalize">add</button>
+                        </div>
+                        <div class="bigerror">
+                            <p></p>
+                        </div>
+                    </div>
+                </form>
+            </div> 
+        </div>
+    </div>
+
+
+
+
+
+
+    <script src="js/jquery-3.6.4.min.js"></script>
+    <script src="js/all.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <!-- <script src="js/state.js"></script> -->
+    <script src="js/main.js"></script>
+</body>
+</html>

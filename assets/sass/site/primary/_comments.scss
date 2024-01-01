@@ -1,0 +1,253 @@
+//-------------------- Comment Modal --------------------//
+
+#comment_post {
+  .submit-form {
+    color: $heading-color;
+    border-radius: 30px;
+    font-size: 15px;
+    border: 2px solid $heading-color;
+    padding: 20px 41px;
+    cursor: pointer;
+    min-height: 48px;
+    letter-spacing: 1.2px;
+    font-weight: 600;
+  }
+}
+
+
+.comments-post {
+
+  .comments-title {
+    margin-bottom: 30px;
+    &.border-section-bottom{
+      padding-bottom: 30px;
+    }
+  }
+
+
+  .comments-area {
+
+    .comment-list {
+      > li.comment:first-child {
+        margin-top: 0;
+
+
+        > .pingback {
+          padding-top: 0;
+        }
+
+
+        > .comment-body {
+          padding-top: 0;
+        }
+      }
+    }
+
+
+    .comment {
+      list-style: none;
+      margin-top: 20px;
+
+
+      > .pingback {
+        padding-top: 10px;
+
+
+        .edit-link {
+          margin-top: 10px;
+        }
+      }
+
+
+      .children {
+        @include media_575(min) {
+          margin-left: 90px;
+        }
+        @include media_575 {
+          margin-left: 30px;
+        }
+
+        @include media_400 {
+          margin-left: 20px;
+        }
+      }
+    }
+  }
+
+
+  .comment-body {
+
+
+    .comment-author img {
+      width: 64px;
+      height: 64px;
+      border-radius: 50%;
+      @include media_575(min) {
+        float: left;
+      }
+    }
+
+
+    .comment-text {
+
+      min-height: 64px;
+
+      @include media_575(min) {
+        padding: 0 0 0 90px;
+      }
+
+
+      .comment-date {
+        float: right;
+        margin: 3px 5px 0 0;
+        font-size: 14px;
+
+
+        &:before {
+          content: "/";
+          display: inline-block;
+          margin-right: 5px;
+        }
+
+
+        @include media_768 {
+          float: inherit;
+          margin-bottom: 15px;
+          &:before {
+            display: none;
+          }
+        }
+
+        @include media_575() {
+          margin-top: 15px;
+        }
+      }
+
+
+      .comment-info {
+
+        @include media_768 {
+          margin-bottom: 8px;
+        }
+
+        .comment-edit {
+          right: -12px;
+          top: 0;
+          transform: translateX(100%);
+          font-size: 12px;
+          font-weight: 600;
+          padding: 3px 10px;
+          border-radius: 15px;
+
+
+          .comment-edit-link {
+            i {
+              font-size: 9px;
+            }
+          }
+        }
+
+
+        .comment-name {
+          float: left;
+          margin: 0;
+        }
+      }
+
+      .reply {
+        font-size: 14px;
+        margin-top: 15px;
+
+        a {
+          padding: 10px 15px;
+          border-radius: 30px;
+          background-color: $assistant-color;
+          color: $heading-color;
+          line-height: 1;
+        }
+
+      }
+
+      .text-holder {
+        p {
+          margin: 7px 0 10px;
+        }
+      }
+
+
+      .comment-reply-link {
+        line-height: 20px;
+
+      }
+    }
+  }
+
+
+  .comments-form {
+    position: relative;
+    width: 100%;
+
+
+    .comment-form-cookies-consent {
+      width: 100%;
+      margin-bottom: 30px;
+    }
+  }
+}
+
+
+.comment-list {
+  .comment-respond {
+    padding: 50px;
+    background-color: $assistant-color;
+    margin-top: 50px;
+
+    .entry-form input, .entry-form textarea {
+      border: 1px solid $border-color;
+    }
+
+    .comment-form-cookies-consent{
+      margin-bottom: 30px;
+    }
+
+    .comments-title {
+      margin-bottom: 30px;
+      border-bottom: 1px solid $border-color;
+      padding-bottom: 20px;
+    }
+
+    @include media_575() {
+      padding: 50px 15px;
+    }
+    @include media_575() {
+      .dsn_root_form textarea:placeholder-shown ~ label, .dsn_root_form textarea {
+        padding: 0 0 15px 0;
+      }
+    }
+
+  }
+}
+
+
+.logged-in-as {
+  margin-bottom: 30px;
+}
+
+
+.no-comments {
+  margin-top: 30px;
+}
+
+
+a#cancel-comment-reply-link {
+  position: absolute;
+  right: 0;
+  top: -6px;
+
+  .dsn-cancel-comment {
+    position: relative;
+    font-size: 12px;
+    padding: 5px 10px;
+    border-radius: 15px;
+  }
+}

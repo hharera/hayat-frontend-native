@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book Donation</title>
+    <link rel="stylesheet" href="css/all.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/contact.css">
+</head>
+<body>
+
+    <div class="container-fluid book">
+        <div class="d-flex justify-content-between align-items-center">
+            <h2 class="title py-2 fa-3x text-capitalize">book donation</h2>
+            <div class="details d-flex justify-content-between align-items-center">
+                <span class="fa-2x d-inline-block"><i class="fa-solid fa-lock" style="color: #719FAF;"></i></span>
+                <p class="text-capitalize mb-0 d-inline-block ms-2">your personal details are safe with us.</p>
+            </div>
+        </div>
+        <div class='content'>
+            <div class="header d-flex">
+                <div class="header1 d-flex align-items-center ps-4 py-2">
+                    <div class="arrow"></div>
+                    <span class="num me-3 d-flex justify-content-center align-items-center">1</span>
+                    <span class="text text-capitalize ">book information</span>
+                </div>
+                <div class="header2 d-flex ps-4 py-2 py-lg-3 justify-content-center align-items-center">
+                    <span class="num me-3 d-flex justify-content-center align-items-center">2</span>
+                    <span class="text text-capitalize ">contact</span>
+                </div>
+            </div>
+            <div class="data ps-4 pe-3 pb-5">
+                <h3 class="mb-4 text-capitalize">Basic information</h3>
+                <form action="">
+                    <div class="basic-data row">
+                        <div class="col-md-6 part1">
+                            <div class="ps-2">
+                                <div class="image-title d-flex align-items-center">
+                                    <div class="image">
+                                        <div class="img position-relative" style='margin-bottom:10px'>
+                                            <input type="file" accept="image/*" class='opacity-0 w-100 h-100 bg-dark bg-danger' name="image">
+                                            <div class="imgs">
+                                                <div class="img1 position-absolute"></div>
+                                                <div class="img2 position-absolute"></div>
+                                                <div class="img3 position-absolute"></div>
+                                                <span class='position-absolute d-flex justify-content-center align-items-center'>
+                                                    <i class="fa-solid fa-plus"></i>
+                                                </span>
+                                            </div>
+                                        </div>
+                                        <div class="errorimg"></div>
+                                    </div>
+                                    <div class="title2">
+                                        <div class="ms-4" style="margin-top: 28px;">
+                                            <input type="text" class="text form-control" placeholder="Title " maxlength="100" minlength="4">
+                                            <div class="d-flex justify-content-end">
+                                                <p class="errortitle"></p>
+                                                <p style="font-size:14px;" class="ms-auto"><span class="count">4</span>/100</p>
+                                            </div>
+                                            
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="booktitle" style="margin-top: 28px;">
+                                    <input type="text" class="text form-control" placeholder="Book Title" maxlength="100" minlength="3">
+                                    <div class="d-flex justify-content-end">
+                                        <p class="errorbooktitle"></p>
+                                        <p style="font-size:14px;" class="ms-auto"><span class="count">3</span>/100</p>
+                                    </div>
+                                </div>
+                                <div class="subtitle">
+                                    <input type="text" class="text form-control" placeholder="Book Subtitle" maxlength="100" minlength="3">
+                                    <div class="d-flex justify-content-end">
+                                        <p class="errorsubtitle"></p>
+                                        <p style="font-size:14px;" class="ms-auto"><span class="count">3</span>/100</p>
+                                    </div>
+                                </div>
+                                <div class="description">
+                                    <textarea minlength="4" maxlength="800" name="description" class="text form-control h-100" id="" cols="30" rows="10" placeholder="Description"></textarea>
+                                    <div class="d-flex justify-content-end">
+                                        <p class="errordescription"></p>
+                                        <p style="font-size:14px;" class="ms-auto"><span class="count">4</span>/800</p>
+                                    </div>
+                                </div>
+                                <div class="cities"  style="margin-top: 30px;">
+                                    <select name="city" id="city" class="city form-control">
+                                        <option value="" class="value1">City</option>
+                                    </select>
+                                    <p class="errorcity"></p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 part2">
+                            <div class="right ps-2">
+                                <div class="amounts">
+                                    <input type="text" name="quantity" placeholder='Amount' class="form-control amount" id="amount">
+                                    <p class="erroramount"></p>
+                                </div>
+                                <div class="authors">
+                                    <input type="text" class="author form-control" placeholder="Author" maxlength="100" minlength="4">
+                                    <p class="errorauthor"></p>
+                                </div>
+                                <div class='bookPublisher'>
+                                    <input type="text" placeholder="Book Publisher" class="form-control">
+                                    <p class="publisherror"></p>
+                                </div>
+                                <div class='publicationYear'>
+                                    <select name="publication_year" id="publication_year" class="publication_year form-select">
+                                            <option>Publication Year</option>
+                                            <option >1970</option>
+                                            <option >1971</option>
+                                            <option >1972</option>
+                                            <option >1973</option>
+                                            <option >1974</option>
+                                            <option >1975</option>
+                                            <option >1976</option>
+                                            <option >1977</option>
+                                            <option >1978</option>
+                                            <option >1979</option>
+                                            <option >1980</option>
+                                            <option >1981</option>
+                                            <option >1982</option>
+                                            <option >1983</option>
+                                            <option >1984</option>
+                                            <option >1985</option>
+                                            <option >1986</option>
+                                            <option >1987</option>
+                                            <option >1988</option>
+                                            <option >1989</option>
+                                            <option >1990</option>
+                                            <option >1991</option>
+                                            <option >1992</option>
+                                            <option >1993</option>
+                                            <option >1994</option>
+                                            <option >1995</option>
+                                            <option >1996</option>
+                                            <option >1997</option>
+                                            <option >1998</option>
+                                            <option >1999</option>
+                                            <option >2000</option>
+                                            <option >2001</option>
+                                            <option >2002</option>
+                                            <option >2003</option>
+                                            <option >2004</option>
+                                            <option >2005</option>
+                                            <option >2006</option>
+                                            <option >2007</option>
+                                            <option >2008</option>
+                                            <option >2009</option>
+                                            <option>2010</option>
+                                            <option>2011</option>
+                                            <option>2012</option>
+                                            <option>2013</option>
+                                            <option>2014</option>
+                                            <option>2015</option>
+                                            <option>2016</option>
+                                            <option>2017</option>
+                                            <option>2018</option>
+                                            <option>2019</option>
+                                            <option>2020</option>
+                                            <option>2021</option>
+                                            <option>2022</option>
+                                            <option>2023</option>
+                                    </select>
+                                    <p class="errordate"></p>
+                                </div>
+                                <div class="languages">
+                                    <select name="language" id="language" class="language form-select">
+                                        <option>Book Language</option>
+                                        <option>Arabic</option>
+                                        <option>English</option>
+                                        <option>Spanish</option>
+                                        <option>German</option>
+                                        <option>Chinese</option>
+                                        <option>Japanese</option>
+                                        <option>Russian</option>
+                                        <option>Portuguese</option>
+                                        <option>Hindi</option>
+                                        <option>Bengali</option>
+                                        <option>Swahili</option>
+                                    </select>
+                                    <p class="errorlanguage"></p>
+                                </div>
+                                <div class="next">
+                                    <a class="btn w-100 text-decoration-none d-block text-center fs-4 text-white">Next</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="communication-method mt-5 d-none">
+                        <div  class="choice w-50">
+                            <div>
+                                <div>
+                                    <input type="radio" name="communication_method" id="chat" value="CHAT">
+                                    <label for="chat">Chat</label>
+                                </div>
+                                <div>
+                                    <input type="radio" name="communication_method" id="phone"  value="PHONE">
+                                    <label for="phone">Phone</label>
+                                </div>
+                                <div>
+                                    <input type="radio" name="communication_method" id="PhoneChat"  value="CHAT_AND_PHONE">
+                                    <label for="PhoneChat">Phone Chat</label>
+                                </div>
+                            </div>
+                            <p class="errorcontact"></p>
+                            <div>
+                                <div class="whats position-relative py-4">
+                                    <input type="text" class="form-control bg-transparent whatsapp position-absolute top-0 bottom-0 start-0 end-0">
+                                    <div class="d-flex align-items-center position-absolute top-0 bottom-0 start-0 end-0 ps-4">
+                                        <span class="icon d-inline-block me-3"><i class="fa-brands fa-whatsapp"></i></span>
+                                        <span class="d-inline-block ms-3">WhatsApp</span>
+                                    </div>
+                                </div>
+                                <p class="whatserror"></p>
+                                <div class="tel position-relative py-4">
+                                    <input type="text" class="form-control bg-transparent teli position-absolute top-0 bottom-0 start-0 end-0">
+                                    <div class="d-flex align-items-center position-absolute top-0 bottom-0 start-0 end-0 ps-4">
+                                        <span class="icon d-inline-block me-3"><i class="fa-brands fa-telegram"></i></span>
+                                        <span class="d-inline-block ms-3">Telegram</span>
+                                    </div>
+                                </div>
+                                <p class="telerror"></p>
+                            </div>
+                        </div>
+                        <div class="buttons d-flex justify-content-between align-items-center">
+                            <a href="" class="btn text-decoration-none text-capitalize d-inline-block">back</a>
+                            <button type="submit" class="btn text-capitalize">add</button>
+                        </div>
+                        <div class="bigerror">
+                            <p></p>
+                        </div>
+                    </div>
+                </form>
+            </div> 
+        </div>
+    </div>
+
+
+
+
+
+
+    <script src="js/jquery-3.6.4.min.js"></script>
+    <script src="js/all.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>

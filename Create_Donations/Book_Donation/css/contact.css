@@ -1,0 +1,113 @@
+.content .data form .communication-method div div div label{
+    color: #999999;
+    font-weight:500;
+    font-size: 20px;
+    margin-left: 15px;
+}
+.content .data form .communication-method div div div input{
+    border:0.5px solid #808080;
+}
+.content .data form .communication-method  div div .whats{
+    border-radius: 5px;
+}
+.content .data form .communication-method  div div .whats .whatsapp{
+    z-index: 10;
+}
+.content .data form .communication-method  div div .whats div{
+    z-index: 0;
+}
+.content .data form .communication-method div div .whats div .icon{
+    color:#999999;
+    font-size: 25px;
+}
+.content .data form .communication-method div div .whats div span{
+    color:#30302ebe;
+    font-size: 18px;
+    font-weight: 500;
+    
+}
+
+.content .data form .communication-method  div div .tel{
+    border-radius: 5px;
+}
+.content .data form .communication-method  div div .tel .teli{
+    z-index: 10;
+}
+.content .data form .communication-method  div div .tel div{
+    z-index: 0;
+}
+.content .data form .communication-method div div .tel div .icon{
+    color:#999999;
+    font-size: 25px;
+}
+.content .data form .communication-method div div .tel div span{
+    color:#30302ebe;
+    font-size: 18px;
+    font-weight: 500;
+    
+}
+.div-button{
+    padding-left:80%;
+}
+.parent1 .content .container .error{
+    border: 0.3px solid rgba(255, 0, 0, 0.445);
+    padding: 5px;
+    color:rgba(255, 0, 0, 0.685);
+    font-size:12px;
+    border-radius:4px;
+    margin-top: 10px;
+}
+.parent2 .content .container .error{
+    border: 0.3px solid rgba(255, 0, 0, 0.445);
+    padding: 5px;
+    color:rgba(255, 0, 0, 0.685);
+    font-size:12px;
+    border-radius:4px;
+    margin-top: 10px;
+}
+
+.content .data form .communication-method .buttons a{
+    padding: 10px 42px;
+    font-weight: 600;
+    font-size: 18px;
+    color: white;
+    background-color: #FEC38F;
+    border-radius: 7px;
+}
+.content .data form .communication-method .buttons button{
+    padding: 10px 42px;
+    font-weight: 600;
+    font-size: 18px;
+    color: white;
+    background-color: #FEC38F;
+    border:0 transparent solid;
+    border-radius: 7px;
+}
+
+
+
+@media only screen and (max-width:991px){
+    .content .data form .communication-method .choice{
+        width:70% !important;
+    }
+}
+
+@media only screen and (max-width:767px){
+    
+    .content .data form .communication-method .choice{
+        width:85% !important;
+    }
+}
+@media only screen and (max-width:700px){
+    .content .data form .communication-method .choice{
+        width:100% !important;
+    }
+}
+@media only screen and (max-width:480px){
+    .content .data form .communication-method .buttons a{
+        padding: 10px 20px;
+    }
+    .content .data form .communication-method .buttons button{
+        padding:10px 20px;
+    }
+}

@@ -1,0 +1,386 @@
+.home{
+    background-image: url("../images/Photo.jpg");
+    background-size: 100% 100%;
+}
+.home p{
+    width: 400px;
+    color: #3e4a41;
+    font-size: 60px;
+    transition-property: opacity, transform;
+    font-weight: 700;
+    font-style: italic;
+    font-stretch: normal;
+    font-optical-sizing: auto;
+    text-align: start;
+    opacity: 1;
+    font-family: "Playfair_Display variant1", Tofu;
+    line-height: 76px;
+    transition-duration: 350ms;
+}
+.donations1 .filter .filters span{
+    color: #3e4a41;
+    font-size: 22px;
+
+}
+.donations1 .filter .filters{
+    border: #3e4a41 1px solid;
+    border-radius: 20px;
+    box-shadow: 0 0 0 0 black;
+    display: flex;
+    align-items: center;
+}
+.donations1 .filter .filters input{
+    padding: 5px 20px;
+    border-radius: 20px;
+    border-color: transparent;
+    box-shadow: 0 0 0 0 black !important;
+    display: inline !important;
+}
+.donations1 .filter h2{
+    background-color: #d5d2c1;
+    border-radius: 7px;
+    color: white;
+}
+.donations1 .filter h2::after{
+    content: "";
+    position: absolute;
+    width: 8px;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background-color: #3e4a41;
+    border-top-right-radius: 7px;
+    border-bottom-right-radius: 7px;
+}
+.donations1 .categories ul li{
+    background-color: #dfddd1;
+    border: 1px solid #717971;
+    border-radius: 23px;
+    font-size: 18px;
+    font-weight: 400;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    cursor: pointer;
+    margin: 5px 7px;
+    color: #2b2b2b;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+.donations1 .categories ul .medicine{
+    border: 2px solid #717971;
+    font-weight: 600;
+    font-size: 19px;
+}
+.donations1 .row .col-lg-3 .details .img .image{
+    height: 200px;
+}
+.donations1 .row .col-lg-3 .details .detail .title-desc .title h3{
+    color: #3e4a41;
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 0;
+}
+.donations1 .row .col-lg-3 .details .detail .title-desc .title p{
+    color: #c4c8c9;
+    font-size: 10px;
+    font-weight: 500;
+    margin-bottom: 5px;
+}
+.donations1 .row .col-lg-3 .details .detail .title-desc .desc p{
+    color: #c4c8c9;
+    font-size: 10px;
+    font-weight: 500;
+}
+.donations1 .row .col-lg-3 .details .detail .see-more span{
+    color: #999c9e;
+    font-size: 8px;
+}
+.donations1 .row .col-lg-3 .details .detail .see-more .change{
+    color: #dee3e7;
+    background-color: #3e4a41;
+    border-radius: 7px;
+    font-size: 11px;
+    padding: 4px 3px;
+    cursor: pointer;
+}
+.donations1 .row .col-lg-3 .details{
+    background-color: #f0efea;
+}
+.donations1 .see span{
+    align-items:center;
+    justify-content:center;
+    color: #dee3e7;
+    font-size: 25px;
+    cursor: pointer;
+}
+.page1{
+    width: 40px;
+    height: 40px;
+    border: 2px solid #3e4a41;
+    font-weight: 600 !important;
+    font-size: 30px !important;
+    border-radius: 50%;
+    color: #76797c;
+}
+.page{
+    width: 40px;
+    height: 40px;
+    border: 2px solid #3e4a41;
+    font-weight: 600 !important;
+    font-size: 30px !important;
+    border-radius: 50%;
+    color: #76797c !important;
+}
+.notpage{
+    border: 0px solid transparent !important;
+    color: #dee3e7 !important;
+    font-size: 25px !important;
+    font-weight: 600 !important;
+}
+
+.footer{
+    background-color: #3e4a41;
+    padding: 80px 0;
+}
+.footer .foot{
+    width: 88%;
+    padding-right: 70px;
+}
+.footer .foot .list ul{
+    padding-right: 30px;
+}
+.footer .foot .list ul li{
+    font-size: 24px;
+    font-weight: 600;
+    padding: 9px 0;
+    cursor: pointer;
+}
+.footer .img{
+    width: 250px;
+}
+.footer .foot .social .phone span{
+    color: white;
+    font-size: 26px;
+    font-weight: 500;
+}
+.footer .foot .social .phone .icon{
+    font-size: 32px;
+}
+.footer .foot .social .email span{
+    color: white;
+    font-size: 26px;
+    font-weight: 500;
+}
+.footer .foot .social .email .icon{
+    font-size: 32px;
+}
+.footer .foot .social .icons span{
+    font-size: 25px;
+    color: white;
+    cursor: pointer;
+}
+
+
+.nav .logo{
+    width: 180px;
+    height: 100px;
+}
+.nav .logo .Logo{
+    background-color: #e1dfd3;
+    height: 120px;
+    opacity: 0.8;
+}
+.nav .logo .Logo::after{
+    content: "";
+    width: 20px;
+    height: 20px;
+    border: 90px solid #e1dfd3;
+    position: absolute;
+    bottom: -180px;
+    border-bottom-color:transparent ;
+    border-left-color:transparent ;
+    border-right-color:transparent ;
+}
+.nav .acount .img{
+    width: 50px;
+}
+nav .container-fluid .acount{
+    margin-right: 0px ;
+}
+nav .container-fluid .acount .img{
+    width: 50px;
+}
+nav .container-fluid .collapse  ul li{
+    font-size: 20px;
+    font-weight: 600;
+}
+nav .container-fluid .collapse  ul li a{
+    color: #3e4a41
+}
+nav .container-fluid .acount .name span{
+    color: #3e4a41;
+    font-size: 14px;
+    font-weight: 500;
+}
+nav .container-fluid .acount .name h4{
+    color: #3e4a41;
+}
+.nav .list ul li{
+    margin: 0 20px;
+    font-size: 16px;
+    font-weight: bold;
+}
+.nav .list ul li a{
+    color: #3e4a41 ;
+}
+.nav .acount .name span{
+    color: #3e4a41;
+    font-size: 14px;
+    font-weight: 500;
+}
+.nav .acount .name h4{
+    color: #3e4a41;
+}
+
+@media only screen and (max-width:991px){
+    .nav{
+        display: none !important;
+    }
+    .navbar{
+        display: block !important;
+    }
+    .donations1 .categories ul li{
+        border-radius: 27px;
+        padding: 4px 27px !important;
+    }
+    .footer .img {
+        width: 200px;
+    }
+    .footer .foot {
+        width: 100%;
+        padding-right: 30px;
+        padding-left: 30px;
+    }
+    .footer .foot .social .icon{
+        margin-right: 20px !important;
+    }
+    .footer .foot .social .icons{
+        padding-top: 30px !important;
+    }
+}
+@media only screen and (max-width:800px){
+    .home p{
+        font-size: 45px;
+        width: 330px;
+    }
+    .footer .img {
+        width: 160px;
+    }
+    .footer .foot {
+        width: 100%;
+        padding-right: 30px;
+        padding-left: 30px;
+    }
+    .footer .foot .social span{
+        font-size: 23px !important;
+    }
+    .footer .foot .social .icon{
+        font-size: 28px !important;
+    }
+    .footer .foot .social .icons{
+        padding-top: 30px !important;
+    }
+    .footer .foot .list ul li {
+        font-size: 21px;
+        padding: 8px 0;
+    }
+    .footer .foot .list ul{
+        padding-right: 0px;
+    }
+}
+@media only screen and (max-width:767px){
+    .donations1 .categories ul li{
+        border-radius: 25px;
+        padding: 2px 22px !important;
+        font-size: 15px;
+        margin: 5px 0px;
+    }
+    .donations1 .categories ul .all{
+        font-size: 17px;
+    }
+    .donations1 .categories ul .clicked{
+        font-size: 17px;
+    }
+    .donations1 .filter{
+        flex-direction: column;
+    }
+    .donations1 .filter h2{
+        text-align: center;
+        margin-bottom: 20px !important;
+    }
+}
+@media only screen and (max-width:685px){
+    .home p{
+        font-size: 38px;
+        width: 284px;
+        margin-left: 0px !important;
+    }
+    .footer .foot {
+        display: block !important;
+        padding-right: 0px;
+        padding-left: 5px;
+        text-align: center;
+    }
+    .footer .img {
+        margin: 20px auto;
+    }
+    .footer .foot .social{
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    .footer .foot .social .phone{
+        justify-content: center;
+    }
+    .footer .foot .social .email{
+        justify-content: center;
+    }
+    .footer .foot .social .icons{
+        padding-top: 15px !important;
+    }
+}
+@media only screen and (max-width:440px){
+    .donations1 .categories ul li{
+        margin: 5px 7px;
+    }
+    nav .container-fluid .acount .img{
+        width: 45px;
+    }
+    nav .container-fluid .acount .name span{
+        font-size: 12px;
+    }
+    nav .container-fluid .acount .name h4{
+        font-size: 20px;
+    }
+}
+@media only screen and (max-width:366px){
+    .home p{
+        font-size: 25px;
+        width: 180px;
+        line-height: 40px;
+    }
+    .donations1 .categories ul{
+        display: block !important;
+    }
+    .donations1 .categories ul li{
+        margin-top: 10px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        font-size: 17px;
+    }
+    .donations1 .categories ul .all{
+        font-size: 20px;
+    }
+    .donations1 .categories ul .clicked{
+        font-size: 20px;
+    }
+}
